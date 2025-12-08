@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pypnf"
+version = "0.0.8"
+description = "Point and Figure charting library (NumPy 2.x compatible fork)"
+authors = [
+  { name="svshastry" }
+]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "numpy",
+  "matplotlib",
+  "tabulate"
+]
+
+[tool.setuptools]
+packages = ["pypnf"]
